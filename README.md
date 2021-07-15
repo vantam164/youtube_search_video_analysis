@@ -20,3 +20,12 @@ From searching keyword -> finding number of related videos, then analyse those v
 `
 
 After running, excel report will be generated in root folder
+
+## NOTE:
+To get videos from youtube need API KEY which setup in .env (currently I put a testing API key but it maybe could not work, please change to yours)
+
+## ISSUES
+1. optimize database performance (query huge data)
+2. try some others method to cluster tags
+3. use deep learning model to classify tags instead of rulebase
+4. use description for more analysis
